@@ -29,7 +29,7 @@ const groupMessageSchema = new mongoose.Schema({
     }
 });
 
-// Index for faster room-based queries
+// Index for faster room based queries
 groupMessageSchema.index({ room: 1, date_sent: 1 });
 
 module.exports = mongoose.model('GroupMessage', groupMessageSchema);
