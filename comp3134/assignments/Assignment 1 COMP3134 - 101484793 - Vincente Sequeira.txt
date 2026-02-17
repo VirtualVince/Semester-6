@@ -1,0 +1,68 @@
+﻿COMPANY: Ford Motor Company
+WEBSITE: https://www.ford.com
+
+
+1) Company Information
+
+
+- Number of employees: ~171,000 worldwide
+- CEO: James D. Farley Jr.
+- CFO: Sherry House
+- President: James D. Farley Jr. (President & CEO)
+- Current job postings:
+  - Software Engineer
+  - Manufacturing Technician
+  - Data Analyst
+  - Finance Analyst
+- Headquarters:
+  - Dearborn, Michigan, USA
+
+
+2) Domain Registration & Hosting Information
+- Domain: ford.com
+- Registrar: CSC Corporate Domains, Inc.
+- Name servers: ns1.ford.com, ns2.ford.com
+- Hosting: Uses large-scale cloud/CDN infrastructure (Microsoft-based IP ranges)
+
+
+3) Server Communication Test I used ping
+vince@archbox ~ [1]> ping -c 3 ford.com
+PING ford.com (19.12.97.37) 56(84) bytes of data.
+
+
+^C
+--- ford.com ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2080ms
+
+
+vince@archbox ~ [1]> 
+
+
+They probably block replies for security
+
+
+
+
+4) Network Route I used Traceroute
+vince@archbox ~> traceroute ford.com
+traceroute to ford.com (19.12.97.37), 30 hops max, 60 byte packets
+ 1  _gateway (10.0.0.1)  1.393 ms  2.356 ms  2.427 ms
+ 2  pool-99-254-196-1.cpe.net.cable.rogers.com (99.254.196.1)  14.153 ms  14.409 ms  14.398 ms
+ 3  24.156.135.65 (24.156.135.65)  14.993 ms  14.969 ms  15.324 ms
+ 4  24.156.147.122 (24.156.147.122)  16.349 ms  16.681 ms  16.671 ms
+ 5  9030-cgw01.mtnk.asr9k.rmgt.net.rogers.com (24.156.147.129)  23.752 ms  24.019 ms  24.398 ms
+ 6  9404-cgw01.ym.rmgt.net.rogers.com (209.148.233.90)  25.418 ms  23.666 ms  23.560 ms
+ 7  209.148.237.21 (209.148.237.21)  67.157 ms  43.091 ms  102.457 ms
+ 8  be8968.ccr41.ord03.atlas.cogentco.com (38.104.102.40)  102.389 ms *  102.315 ms
+ 9  be2766.ccr42.ord01.atlas.cogentco.com (154.54.46.177)  102.276 ms be2765.ccr41.ord01.atlas.cogentco.com (154.54.45.17)  102.240 ms be2766.ccr42.ord01.atlas.cogentco.com (154.54.46.177)  102.197 ms
+10  be3469.rcr51.b022161-0.ord01.atlas.cogentco.com (66.28.4.194)  102.163 ms be3470.rcr51.b022161-0.ord01.atlas.cogentco.com (154.54.1.102)  102.127 ms  102.092 ms
+11  38.142.191.18 (38.142.191.18)  102.057 ms  102.022 ms  101.942 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  *^C⏎                                                                                                                                                                                 vince@archbox ~ [SIGINT]> 
+
+
+Some of these are internet backbone routers but eventually point is proven. Route traced successfully to ford.com (some hops did not respond)
