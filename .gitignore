@@ -1,0 +1,96 @@
+
+#  JUPYTER NOTEBOOKS
+# Checkpoint files 
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# nbconvert output 
+*.html
+*.pdf
+*.py        # if auto-exported from notebooks — remove if you write .py directly
+*.slides.html
+
+# Large data / model files 
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.joblib
+*.pt
+*.pth        
+*.onnx
+*.pb         
+
+# Virtual envs
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter runtime
+.jupyter/
+profile_default/
+ipython_config.py
+
+#  SWIFT / XCODE
+# Build output
+build/
+DerivedData/
+*.o
+*.d
+*.hmap
+
+# Xcode project user data
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved   # optional — commit this if you want reproducible deps
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Instruments / profiling
+*.trace
+
+# Simulator artefacts
+*.app
+
+# Crashlogs
+*.crash
+
+# Xcode 14+ result bundles
+*.xcresult
+
+# OS
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows 
+Thumbs.db
+desktop.ini
+
+# Editor clutter
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
