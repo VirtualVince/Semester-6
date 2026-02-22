@@ -1,0 +1,7 @@
+What is the definition of server port? Identifies a service on a server.
+
+What is server port range? 0 to 65535
+
+How many bits does number above represent? 16bits
+
+State 10 common server port- 20, 21, 22, 23, 25, 53, 80, 110, 143, 3306

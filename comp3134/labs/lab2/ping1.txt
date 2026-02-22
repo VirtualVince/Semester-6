@@ -1,0 +1,3 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping facebook.com -w 60
+PING facebook.com (31.13.80.36) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=1 ttl=56 time=2.53 ms
