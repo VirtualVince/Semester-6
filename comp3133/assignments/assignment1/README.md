@@ -40,14 +40,14 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/semester-6/
-cd comp3133/assignemnts/assignment1
+git clone https://github.com/VirtualVince/Semester-6/tree/main/comp3133/assignments/assignment1
+cd assignment1
 
 # 2. Install dependencies
 npm install
 
 # 3. Set up environment variables
-cp .env.example .env
+cp .env
 #    → Fill in MONGODB_URI, JWT_SECRET and Cloudinary credentials
 
 # 4. Start the development server
@@ -61,16 +61,17 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env` file (copy from `.env.example`):
+Create a `.env` file
 
 ```
 PORT=4000
-MONGODB_URI=mongodb://localhost:27017/comp3133_101XXXXXXX_Assigment1
-JWT_SECRET=super_secret_key
+MONGODB_URI=mongodb://localhost:27017/
+Assigment1
+JWT_SECRET= your own token
 
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+CLOUDINARY_CLOUD_NAME= your own name
+CLOUDINARY_API_KEY= your own token
+CLOUDINARY_API_SECRET= your own token
 ```
 
 ---
@@ -147,7 +148,6 @@ mutation {
   }
 }
 ```
-> Photo upload via multipart form-data – use Postman's form-data with key `photo`.
 
 ### 5 · Search Employee by ID (Query) 🔒
 ```graphql
@@ -244,8 +244,7 @@ COMP3133_101XXXXXXX_Assignment1/
 
 ---
 
-## 📝 Notes
-- JWT token expires in **7 days**.
+## Notes
 - Salary minimum is **1000**.
 - Gender accepted values: `Male`, `Female`, `Other`.
 - Employee photos are stored on Cloudinary; the `employee_photo` field holds the secure URL.
