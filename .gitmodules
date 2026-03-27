@@ -1,3 +1,6 @@
 [submodule "rogue-paddle"]
 	path = rogue-paddle
 	url = git@github.com:da-shalev/rogue-paddle.git
+[submodule "comp3097/move-in-ios"]
+	path = comp3097/move-in-ios
+	url = git@github.com:leafschick/move-in-ios.git
