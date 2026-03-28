@@ -1,0 +1,27 @@
+Task 1 - Session Cookies from Five Domains
+==========================================
+
+1. Domain: amazon.ca
+   Cookie Name:  session-id
+   Cookie Value: 144-1837256-9902910
+   Cookie Path:  /
+
+2. Domain: youtube.com
+   Cookie Name:  YSC
+   Cookie Value: 203ejh8xabU
+   Cookie Path:  /
+
+3. Domain: github.com
+   Cookie Name:  user_session
+   Cookie Value: IElJ8VQ2Om7UBABT_SBoMocZGGvtCXRq-IGncHU3TQhq...
+   Cookie Path:  /
+
+4. Domain: x.com
+   Cookie Name:  auth_token
+   Cookie Value: 760522f7051f6a3daaf890ba6992bdb316c91f1a
+   Cookie Path:  /
+
+5. Domain: discord.com
+   Cookie Name:  _dcfduid
+   Cookie Value: 8b869bd0247e11f18db04fd6e24149a2
+   Cookie Path:  /

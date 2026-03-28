@@ -1,0 +1,63 @@
+Task 2 - Hidden Form Input Fields
+==================================
+ 
+1. Domain: canada.ca
+   Form Method: POST
+ 
+   Hidden Field 1:
+     Name:  pageTitle
+     Value: Canada Revenue Agency (CRA) - Canada.ca
+ 
+   Hidden Field 2:
+     Name:  language
+     Value: en
+ 
+   Hidden Field 3:
+     Name:  submissionPage
+     Value: https://www.canada.ca/en/revenue-agency.html
+ 
+   Hidden Field 4:
+     Name:  oppositelang
+     Value: /fr/agence-revenu.html
+ 
+------------------------------------------
+ 
+2. Domain: amazon.ca
+   Form Method: POST
+ 
+   Hidden Field 1:
+     Name:  glow-validation-token
+     Value: hO7ZlKQZFpmSGzLGZidjKoC6AvohLd2xoETlic6dx3oFAAAA
+ 
+   Hidden Field 2:
+     Name:  glow-destination-type
+     Value: DEFAULT_ADDRESS
+ 
+   Hidden Field 3:
+     Name:  dropdown-selection
+     Value: losjroljtqk
+ 
+   Hidden Field 4:
+     Name:  dropdown-selection-ubb
+     Value: losjroljtqk
+ 
+------------------------------------------
+ 
+3. Domain: github.com
+   Form Method: POST
+ 
+   Hidden Field 1:
+     Name:  authenticity_token
+     Value: w1jKYJgHDchYq1fmn6g2qsmC10QMd4
+ 
+   Hidden Field 2:
+     Name:  data-csrf
+     Value: true
+ 
+   Hidden Field 3:
+     Name:  source
+     Value: form-home-signup
+ 
+   Hidden Field 4:
+     Name:  type
+     Value: hidden

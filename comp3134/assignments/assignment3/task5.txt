@@ -1,0 +1,12 @@
+Task 5 - HTML Comments Found in Page Source
+============================================
+
+Domain: virtualvince.ca
+
+Comment 1:
+<!--$-->
+
+Comment 2:
+<!--/$-->
+
+
