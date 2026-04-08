@@ -1,0 +1,64 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.toolbar {
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mission-item {
+  cursor: pointer;
+  background-color: #add8e6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 12px !important;
+  height: auto !important;
+  transition: background-color 0.2s;
+}
+
+.mission-item:hover {
+  background-color: #87ceeb;
+}
+
+.patch {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mission-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.launch-year {
+  color: #444;
+  font-size: 0.85rem;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #222;
+  white-space: normal;
+}
+
+.loading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
