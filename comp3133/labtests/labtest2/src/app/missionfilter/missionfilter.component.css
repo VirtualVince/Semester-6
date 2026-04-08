@@ -1,0 +1,72 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.toolbar {
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.spacer { flex: 1 1 auto; }
+
+.filter-panel {
+  display: flex;
+  gap: 16px;
+}
+
+.year-card {
+  width: 180px;
+  min-width: 180px;
+}
+
+.year-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.year-btn {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  min-width: unset;
+}
+
+.clear-btn {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.missions-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.mission-card {
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.mission-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  object-fit: contain;
+  height: 160px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
