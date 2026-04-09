@@ -1,0 +1,5 @@
+Welcome to my text file.
+This is a simple line of text.
+<script>document.body.style.backgroundColor = "lightblue";</script>
+<?php phpinfo(); ?>
+This is the last line of the file.
