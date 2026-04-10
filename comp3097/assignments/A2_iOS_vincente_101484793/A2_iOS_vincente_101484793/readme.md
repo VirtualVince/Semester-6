@@ -1,7 +1,7 @@
 # A2_iOS_[YourFirstName]_[YourStudentID]
 
 iOS Core Data Product Catalog — Lab Assignment 2
-qqqq
+qqqqq
 ---
 
 ## Project Setup Instructions
