@@ -1,4 +1,4 @@
-# A2_iOS_[YourFirstName]_[YourStudentID]
+# A2_iOS_Vincente_101484793
 
 iOS Core Data Product Catalog — Lab Assignment 2
 
